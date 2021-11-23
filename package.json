@@ -1,0 +1,23 @@
+{
+  "name": "groove-monitor",
+  "version": "1.0.2",
+  "description": "groove monitor ",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ",
+    "serve": "rollup -c -w rollup.config.js"
+  },
+  "keywords": [
+    "monitor"
+  ],
+  "author": "groove",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "rollup": "^2.56.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
