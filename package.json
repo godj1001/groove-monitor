@@ -1,6 +1,6 @@
 {
   "name": "groove-monitor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "groove monitor ",
   "main": "dist/bundle.js",
   "scripts": {

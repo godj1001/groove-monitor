@@ -30,9 +30,9 @@ class Monitor {
       this.performance = window.performance || window.msPerformance || window.webkitPerformance;
 
       if (this.options.showTimeReport) {
-        setTimeout(() => {
+        requestIdleCallback(() => {
           this.logTime();
-        }, 5000);
+        });
       }
     }
   }
